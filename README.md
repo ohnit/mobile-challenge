@@ -1,3 +1,15 @@
+
+# My Submission
+
+## Build Environment
+* XCode: Version 7.3 (7D175)
+* Cocoapods: 0.39.0
+     
+      
+     
+     
+=================
+
 # Wave Software Development Challenge
 Applicants for the [Mobile engineer](https://wave.bamboohr.co.uk/jobs/view.php?id=6) role at Wave must complete the following challenge, and submit a solution prior to the onsite interview. 
 
