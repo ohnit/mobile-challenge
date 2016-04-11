@@ -14,6 +14,8 @@
 		8B6DE5CD1CB754E60009CEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6DE5CA1CB754E60009CEC1 /* Main.storyboard */; };
 		8B6DE5D31CB7555C0009CEC1 /* WCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6DE5D01CB7555C0009CEC1 /* WCAppDelegate.m */; };
 		8B6DE5D71CB756E10009CEC1 /* WCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6DE5D61CB756E10009CEC1 /* WCRootViewController.m */; };
+		A5B0F5E8A7ED01574F375597 /* libPods-WaveChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B91EE121DF143554E3965F38 /* libPods-WaveChallengeTests.a */; };
+		E5F957D4236A8B3ADD10E559 /* libPods-Wave Challenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC9B793EEFB578A2B76246E /* libPods-Wave Challenge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17807529B7E391E537FC5FE8 /* Pods-Wave Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wave Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wave Challenge/Pods-Wave Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		2CA71285D00082608E7B6497 /* Pods-Wave Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wave Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wave Challenge/Pods-Wave Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		43704437E84253964378AC4B /* Pods-WaveChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaveChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaveChallengeTests/Pods-WaveChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BC9B793EEFB578A2B76246E /* libPods-Wave Challenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wave Challenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5FE3641CBB5B1B00771316 /* WaveChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5FE3661CBB5B1B00771316 /* WaveChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveChallengeTests.m; sourceTree = "<group>"; };
 		8B5FE3681CBB5B1B00771316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +47,8 @@
 		8B6DE5D01CB7555C0009CEC1 /* WCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCAppDelegate.m; sourceTree = "<group>"; };
 		8B6DE5D51CB756E10009CEC1 /* WCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCRootViewController.h; sourceTree = "<group>"; };
 		8B6DE5D61CB756E10009CEC1 /* WCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCRootViewController.m; sourceTree = "<group>"; };
+		A4EFAABEA90157528298A7E1 /* Pods-WaveChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaveChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaveChallengeTests/Pods-WaveChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B91EE121DF143554E3965F38 /* libPods-WaveChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaveChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B0F5E8A7ED01574F375597 /* libPods-WaveChallengeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F957D4236A8B3ADD10E559 /* libPods-Wave Challenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +114,8 @@
 				8B6DE5A81CB7510E0009CEC1 /* Wave Challenge */,
 				8B5FE3651CBB5B1B00771316 /* WaveChallengeTests */,
 				8B6DE5A71CB7510E0009CEC1 /* Products */,
+				FD61A88E3FE69F4BA5B0075D /* Pods */,
+				B5CBF3D0F2E4E3E756A1EDB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +181,26 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		B5CBF3D0F2E4E3E756A1EDB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9B793EEFB578A2B76246E /* libPods-Wave Challenge.a */,
+				B91EE121DF143554E3965F38 /* libPods-WaveChallengeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD61A88E3FE69F4BA5B0075D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CA71285D00082608E7B6497 /* Pods-Wave Challenge.debug.xcconfig */,
+				17807529B7E391E537FC5FE8 /* Pods-Wave Challenge.release.xcconfig */,
+				A4EFAABEA90157528298A7E1 /* Pods-WaveChallengeTests.debug.xcconfig */,
+				43704437E84253964378AC4B /* Pods-WaveChallengeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B5FE36B1CBB5B1B00771316 /* Build configuration list for PBXNativeTarget "WaveChallengeTests" */;
 			buildPhases = (
+				6A0C2A921D7331BB57CD6365 /* Check Pods Manifest.lock */,
 				8B5FE3601CBB5B1B00771316 /* Sources */,
 				8B5FE3611CBB5B1B00771316 /* Frameworks */,
 				8B5FE3621CBB5B1B00771316 /* Resources */,
+				1BE417A7A5622952C3ED06B1 /* Embed Pods Frameworks */,
+				0162F77B2C52F9D24222A585 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B6DE5BD1CB7510F0009CEC1 /* Build configuration list for PBXNativeTarget "Wave Challenge" */;
 			buildPhases = (
+				BD71BB1B63DBD8449FDD0197 /* Check Pods Manifest.lock */,
 				8B6DE5A21CB7510E0009CEC1 /* Sources */,
 				8B6DE5A31CB7510E0009CEC1 /* Frameworks */,
 				8B6DE5A41CB7510E0009CEC1 /* Resources */,
+				D7149FCA458F03A7DE80E179 /* Embed Pods Frameworks */,
+				E63C7AC52BF7B51EBF277C99 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +303,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0162F77B2C52F9D24222A585 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaveChallengeTests/Pods-WaveChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BE417A7A5622952C3ED06B1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaveChallengeTests/Pods-WaveChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0C2A921D7331BB57CD6365 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD71BB1B63DBD8449FDD0197 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7149FCA458F03A7DE80E179 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wave Challenge/Pods-Wave Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E63C7AC52BF7B51EBF277C99 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wave Challenge/Pods-Wave Challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B5FE3601CBB5B1B00771316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -318,6 +449,7 @@
 /* Begin XCBuildConfiguration section */
 		8B5FE36C1CBB5B1B00771316 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EFAABEA90157528298A7E1 /* Pods-WaveChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WaveChallengeTests/Info.plist;
@@ -330,6 +462,7 @@
 		};
 		8B5FE36D1CBB5B1B00771316 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43704437E84253964378AC4B /* Pods-WaveChallengeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WaveChallengeTests/Info.plist;
@@ -426,6 +559,7 @@
 		};
 		8B6DE5BE1CB7510F0009CEC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA71285D00082608E7B6497 /* Pods-Wave Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Wave Challenge/Info.plist";
@@ -438,6 +572,7 @@
 		};
 		8B6DE5BF1CB7510F0009CEC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17807529B7E391E537FC5FE8 /* Pods-Wave Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Wave Challenge/Info.plist";
@@ -458,6 +593,7 @@
 				8B5FE36D1CBB5B1B00771316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B6DE5A11CB7510E0009CEC1 /* Build configuration list for PBXProject "Wave Challenge" */ = {
 			isa = XCConfigurationList;
