@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B5FE3671CBB5B1B00771316 /* WaveChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5FE3661CBB5B1B00771316 /* WaveChallengeTests.m */; };
 		8B6DE5AB1CB7510E0009CEC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6DE5AA1CB7510E0009CEC1 /* main.m */; };
 		8B6DE5C31CB753990009CEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6DE5C21CB753990009CEC1 /* Assets.xcassets */; };
 		8B6DE5CC1CB754E60009CEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6DE5C81CB754E60009CEC1 /* LaunchScreen.storyboard */; };
@@ -15,7 +16,20 @@
 		8B6DE5D71CB756E10009CEC1 /* WCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6DE5D61CB756E10009CEC1 /* WCRootViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8B5FE3691CBB5B1B00771316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B6DE59E1CB7510E0009CEC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B6DE5A51CB7510E0009CEC1;
+			remoteInfo = "Wave Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		8B5FE3641CBB5B1B00771316 /* WaveChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5FE3661CBB5B1B00771316 /* WaveChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveChallengeTests.m; sourceTree = "<group>"; };
+		8B5FE3681CBB5B1B00771316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B6DE5A61CB7510E0009CEC1 /* Wave Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wave Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B6DE5AA1CB7510E0009CEC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B6DE5BA1CB7510F0009CEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -30,6 +44,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8B5FE3611CBB5B1B00771316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B6DE5A31CB7510E0009CEC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,10 +89,20 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		8B5FE3651CBB5B1B00771316 /* WaveChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B5FE3661CBB5B1B00771316 /* WaveChallengeTests.m */,
+				8B5FE3681CBB5B1B00771316 /* Info.plist */,
+			);
+			path = WaveChallengeTests;
+			sourceTree = "<group>";
+		};
 		8B6DE59D1CB7510E0009CEC1 = {
 			isa = PBXGroup;
 			children = (
 				8B6DE5A81CB7510E0009CEC1 /* Wave Challenge */,
+				8B5FE3651CBB5B1B00771316 /* WaveChallengeTests */,
 				8B6DE5A71CB7510E0009CEC1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				8B6DE5A61CB7510E0009CEC1 /* Wave Challenge.app */,
+				8B5FE3641CBB5B1B00771316 /* WaveChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +172,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8B5FE3631CBB5B1B00771316 /* WaveChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5FE36B1CBB5B1B00771316 /* Build configuration list for PBXNativeTarget "WaveChallengeTests" */;
+			buildPhases = (
+				8B5FE3601CBB5B1B00771316 /* Sources */,
+				8B5FE3611CBB5B1B00771316 /* Frameworks */,
+				8B5FE3621CBB5B1B00771316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B5FE36A1CBB5B1B00771316 /* PBXTargetDependency */,
+			);
+			name = WaveChallengeTests;
+			productName = WaveChallengeTests;
+			productReference = 8B5FE3641CBB5B1B00771316 /* WaveChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8B6DE5A51CB7510E0009CEC1 /* Wave Challenge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B6DE5BD1CB7510F0009CEC1 /* Build configuration list for PBXNativeTarget "Wave Challenge" */;
@@ -167,6 +217,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Nitin Malik";
 				TargetAttributes = {
+					8B5FE3631CBB5B1B00771316 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8B6DE5A51CB7510E0009CEC1;
+					};
 					8B6DE5A51CB7510E0009CEC1 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -186,11 +240,19 @@
 			projectRoot = "";
 			targets = (
 				8B6DE5A51CB7510E0009CEC1 /* Wave Challenge */,
+				8B5FE3631CBB5B1B00771316 /* WaveChallengeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8B5FE3621CBB5B1B00771316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B6DE5A41CB7510E0009CEC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -204,6 +266,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8B5FE3601CBB5B1B00771316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5FE3671CBB5B1B00771316 /* WaveChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B6DE5A21CB7510E0009CEC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,6 +285,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B5FE36A1CBB5B1B00771316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B6DE5A51CB7510E0009CEC1 /* Wave Challenge */;
+			targetProxy = 8B5FE3691CBB5B1B00771316 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8B6DE5C81CB754E60009CEC1 /* LaunchScreen.storyboard */ = {
@@ -238,6 +316,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8B5FE36C1CBB5B1B00771316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitinmalik.WaveChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wave Challenge.app/Wave Challenge";
+			};
+			name = Debug;
+		};
+		8B5FE36D1CBB5B1B00771316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitinmalik.WaveChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wave Challenge.app/Wave Challenge";
+			};
+			name = Release;
+		};
 		8B6DE5BB1CB7510F0009CEC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -349,6 +451,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8B5FE36B1CBB5B1B00771316 /* Build configuration list for PBXNativeTarget "WaveChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5FE36C1CBB5B1B00771316 /* Debug */,
+				8B5FE36D1CBB5B1B00771316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		8B6DE5A11CB7510E0009CEC1 /* Build configuration list for PBXProject "Wave Challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
